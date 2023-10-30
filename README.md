@@ -2,7 +2,7 @@
 
 Welcome to Exzaust
 
-### Delete Later
+## Delete Later
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
