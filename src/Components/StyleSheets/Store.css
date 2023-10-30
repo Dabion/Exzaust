@@ -1,0 +1,153 @@
+button:focus {
+    outline: none;
+  }
+  
+  .pic {
+    background: url("../../images/StoreCover.png")
+      no-repeat center center/cover;
+    width: 2000px;
+    height: 90vh;
+    min-width: 500px;
+    
+  }
+  .info {
+    display: flex;
+    margin-top: 120px;
+  }
+  
+  .content {
+    width: 40%;
+    text-align: center;
+    padding: 50px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ecf0f1;
+  }
+  .content h1 {
+    font-size: 60px;
+    line-height: 1em;
+  }
+  .content p {
+    color: #17252a;
+  }
+  .head {
+    max-width: 80%;
+    line-height: 3em;
+    margin: 0;
+    text-align: left;
+    border-top: 3px solid #000000;
+    padding-top: 20px;
+  }
+  .content button {
+    padding: 10px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  .content button:hover {
+    color: #0107be;
+    background: transparent;
+    border: 2px solid #0300bf;
+  }
+  
+  @media (max-width: 1119px) {
+    .info {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .content,
+    .pic {
+      width: 100%;
+    }
+  }
+  @media (max-width:400px)
+  {
+    .content h1{
+      font-size:35px;
+      line-height:3rem;
+      margin-bottom:1rem;
+    }
+    .content p{
+      line-height:2rem;
+    }
+  }
+  .header{
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.sec{
+    background: #fff;
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sec .content{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.whoweare{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.toggle{
+    display: none;
+}
+@media (max-width: 992px){
+
+    .toggle{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        
+        }
+    .toggle:before{
+        content: '';
+        position: absolute;
+        top: 4px;
+        width: 100%;
+        height: 2px;
+        background: rgb(99, 99, 99);
+        z-index: 1;
+        box-shadow: 0 10px 0 rgb(99, 99, 99);
+        transition: 0.5s;
+    }
+
+    .toggle:after{
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        width: 100%;
+        height: 2px;
+        background:rgb(99, 99, 99);
+        z-index: 1;
+        transition: 0.5s;
+    }
+}
