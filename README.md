@@ -1,6 +1,6 @@
 # EXZAUST Web App 
 
-    Welcome to Exzaust
+Welcome to Exzaust
 
 ### Delete Later
 
